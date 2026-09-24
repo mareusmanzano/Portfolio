@@ -429,8 +429,8 @@ h2.section-title {
 /* ---------- About ---------- */
 .about .section-inner {
   display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
-  gap: 60px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
   align-items: start;
 }
 .about__portrait {
