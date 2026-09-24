@@ -445,9 +445,11 @@ h2.section-title {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 0;
+  overflow: hidden;
   font-family: var(--font-display);
   color: #fff;
-  font-size: 5rem;
+  font-size: clamp(2rem, 8vw, 5rem);
   font-weight: 700;
   box-shadow: var(--shadow-pop);
 }
